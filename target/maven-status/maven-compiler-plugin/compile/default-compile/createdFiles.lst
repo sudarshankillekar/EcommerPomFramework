@@ -1,0 +1,8 @@
+com\pages\Orderpage.class
+com\pages\productCatalogePage.class
+com\pages\CartPage.class
+com\pages\LandingPage.class
+com\pages\CheckOutPage.class
+com\pages\confirmationPage.class
+com\resources\ExtentReportNG.class
+utils\BrowserUtility.class

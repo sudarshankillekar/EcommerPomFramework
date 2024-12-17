@@ -1,22 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 6, Errors: 0, Skipped: 4, Time elapsed: 6.896 s <<< FAILURE! - in TestSuite
-launchApplication(com.ui.tests.ErrorValidationsTest)  Time elapsed: 3.522 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
-
-tearDown(com.ui.tests.ErrorValidationsTest)  Time elapsed: 0.005 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
-
-launchApplication(com.ui.tests.LoginTest)  Time elapsed: 2.821 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
-
-tearDown(com.ui.tests.LoginTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
-
-launchApplication(com.ui.tests.LoginTest)  Time elapsed: 0.047 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
-
-tearDown(com.ui.tests.LoginTest)  Time elapsed: 0.002 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 78.563 s - in TestSuite

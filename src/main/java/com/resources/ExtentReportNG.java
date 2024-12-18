@@ -17,7 +17,7 @@ public class ExtentReportNG {
 		
 		 ExtentReports extentReports = new ExtentReports();
 		extentReports.attachReporter(reporter);
-		extentReports.setSystemInfo("Tester", "Rahul Shetty");
+		extentReports.setSystemInfo("windows", "8");
 		
 		return extentReports;
 		

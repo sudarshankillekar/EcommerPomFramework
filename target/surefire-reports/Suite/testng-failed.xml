@@ -4,12 +4,24 @@
   <listeners>
     <listener class-name="com.TestComponents.Listeners"/>
   </listeners>
+  <test thread-count="4" parallel="methods" name="errorValidationsTest(failed)" verbose="0">
+    <classes>
+      <class name="com.ui.tests.ErrorValidationsTest">
+        <methods>
+          <include name="verifyLoginWithInvaliData"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ui.tests.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- errorValidationsTest(failed) -->
   <test thread-count="4" parallel="methods" name="LoginTest(failed)" verbose="0">
     <classes>
       <class name="com.ui.tests.LoginTest">
         <methods>
           <include name="launchApplication"/>
-          <include name="submitOrder" invocation-numbers="1"/>
+          <include name="verifyorderHistory"/>
+          <include name="submitOrder"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.ui.tests.LoginTest -->
